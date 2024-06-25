@@ -1,0 +1,19 @@
+appId: com.pdm-aa2
+---
+- openLink: exp://192.168.0.2:8081
+- tapOn: 
+    id: email-input
+- inputText: 
+    text: "teste@teste.teste"
+- tapOn: 
+    id: password-input
+- inputText: 
+    text: "teste123"
+
+- hideKeyboard
+
+- tapOn: 
+    id: login-button
+
+- tapOn:
+    id: logout-button
